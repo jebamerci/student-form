@@ -1,0 +1,145 @@
+
+    body,
+    html {
+  
+      font-family: Arial, sans-serif;
+      margin: 0 ;
+      padding: 0;
+    }
+
+    body {
+      background: url("https://images.unsplash.com/photo-1506744038136-46273834b3fb")
+        no-repeat center center;
+      background-size: cover;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+
+    .form-title{
+        text-transform: uppercase;
+    }
+
+    .form-container {
+      background: rgba(0, 0, 0, 0.6);
+      padding: 40px;
+      border-radius: 10px;
+      width: 90%;
+      max-width: 500px;
+      color: #fff;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+      margin-top: 30px;
+    }
+
+    .form-container h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    label {
+      display: block;
+      margin-top: 15px;
+      margin-bottom: 5px;
+      font-size: 14px;
+    }
+
+    input,
+    select {
+      width: 100%;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      margin-bottom: 10px;
+      background-color: rgba(255, 255, 255, 0.1);
+      color: white;
+    }
+
+    input{
+      color: #fff;
+    }
+
+   
+    select option {
+      color: #333;
+    }
+
+    input:focus {
+    outline: none;
+    border: none;
+}
+
+    input::placeholder {
+      color: #ccc;
+    }
+
+    button {
+      width: 100%;
+      padding: 12px;
+      background-color: #00b894;
+      border: none;
+      color: white;
+      font-weight: bold;
+      border-radius: 5px;
+      margin-top: 15px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #019875;
+    }
+
+    .table-container {
+   background: rgba(0, 0, 0, 0.6);
+      padding: 30px;
+      border-radius: 10px;
+     box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+      width: 90%;
+      max-width: 900px;
+      margin-top: 50px;
+      margin-bottom: 50px;
+      color: #fff
+    }
+
+    table {
+      width: 100%;
+       min-width: 700px; 
+      border-collapse: collapse;
+    }
+    .table-wrapper{
+        overflow-x: auto;
+    }
+
+    th,
+    td {
+      padding: 12px;
+      border: 1px solid #333;
+      text-align: center;
+      color: #fff;
+    }
+
+    th {
+      background-color: rgba(255, 255, 255, 0.338);
+      font-weight: bold;
+    }
+
+    .delete-btn {
+      background-color: red;
+      color: white;
+      border: none;
+      padding: 5px 10px;
+      border-radius: 3px;
+      cursor: pointer;
+    }
+
+    .delete-btn:hover {
+      background-color: darkred;
+    }
+
+
+    @media only screen and (max-width: 800px) {
+        body{
+            width: 88%;
+            margin-inline: auto;
+        }
+    }
